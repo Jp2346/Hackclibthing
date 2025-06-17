@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>One-Click Tools</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🎧">
+</head>
+<body>
+  <h1>🛠️ One-Click Tools</h1>
+
+  <div class="tool">
+    <h2>🎲 Dice Roller</h2>
+    <button onclick="rollDice()">Roll</button>
+    <p id="dice-result">Click to roll!</p>
+  </div>
+
+  <div class="tool">
+    <h2>😄 Random Emoji</h2>
+    <button onclick="randomEmoji()">Get Emoji</button>
+    <p id="emoji-result">Click to see an emoji!</p>
+  </div>
+
+  <div class="tool">
+    <h2>🎨 Random Color</h2>
+    <button onclick="randomColor()">Get Color</button>
+    <p id="color-result">Click to get a color!</p>
+    <div id="color-box" style="width:50px; height:50px; margin: 10px auto; border:1px solid #ccc;"></div>
+  </div>
+
+  <div class="tool">
+    <h2>🧠 Random Fun Fact</h2>
+    <button onclick="randomFact()">Get Fact</button>
+    <p id="fact-result">Click for a fun fact!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
