@@ -3,7 +3,7 @@
 A collection of simple, fast browser-based utilities made for Hack Club's Summer of Making 2025!
 
 ## Features
-- Coin Flip
+- emoiji generator
 - Dice Roller
 - Random Color Generator
 - More tools coming soon!
